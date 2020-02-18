@@ -1,0 +1,222 @@
+;Main Grammar file 
+;Author: Paula Aliu
+;AINT512 MiniProject
+;onotseike@hotmail.com
+;paula.aliu@postgrad.plymouth.ac.uk
+;Sheva -The Conversational Agent
+
+
+
+
+.MainGrammar
+(
+
+    [
+        (?it ?is ?a RiddleAnswers)
+        (DateTime)
+        (UserState)
+        (UserEmotion)
+        (LOOSE_CONFIRMATION)
+    ]
+
+)
+
+
+RiddleAnswers
+(
+    [
+        (band aide) {<reply_slot 1>}
+        (car tune) {<reply_slot 2>}
+        (flower power) {<reply_slot 3>}
+        (pork chops) {<reply_slot 4>}
+        (fast food) {<reply_slot 5>}
+        (cereal killer) {<reply_slot 6>}
+        (canned carrot) {<reply_slot 7>}
+        (serial killer) {<reply_slot 8>}
+        (dog ruff) {<reply_slot 9>}
+        (sour milk) {<reply_slot 10>}
+        (car nation) {<reply_slot 11>}
+        (star warts) {<reply_slot 12>}
+        (cow bell) {<reply_slot 13>}
+        (cat purr) {<reply_slot 14>}
+        (sour puss) {<reply_slot 15>}
+        (mew sic) {<reply_slot 16>}
+        (ant) {<reply_slot 17>}
+        (dollars scents) {<reply_slot 18>}
+        (jellyfish) {<reply_slot 19>}
+        (eggs tra terrestrial) {<reply_slot 20>}
+    ]
+)
+
+UserState
+(
+    ?[um uh]
+
+    [
+        [(sad) down low bad] {<user_state_slot 3>}
+        [happy (great) up good] {<user_state_slot 1>}
+        [average (meh)] {<user_state_slot 2>}
+    ]
+)
+
+UserEmotion
+(
+    ?[um uh] 
+    
+    [
+        (Hopeless) {<user_emotion_slot 3>}
+        (Depression) {<user_emotion_slot 1>}
+        (Suicide) {<user_emotion_slot 2>}
+    ]
+)
+
+Hopeless
+(
+    ?[(i feel) (i am feeling) (i have a feeling of)]
+    [
+        hopeless
+        hopelessness
+        despair
+        despairing
+        despondent
+        downcast
+        demoralized
+        forlorn
+        dejected
+    ]
+)
+
+
+Depression
+(
+    ?[(i feel) (i am feeling) (i have a feeling of)]
+    [
+        depressed
+        depression
+        glum
+        dejected
+        gloomy
+        miserable
+        sorrowful
+        melancholy
+        misery
+        woe
+        gloominess
+        gloominess
+    ]
+)
+
+Suicide
+(
+    [
+        (self harm)
+        (?commit suicide)
+        (?i ?am suicidal)
+        (?i ?want ?to end it)
+        (self immolation)
+        (self murder)
+        (ending it all)
+        (self annihilation)
+        (baneful)
+        (vermicide)
+    ]
+)
+
+
+DateTime
+(
+
+    [
+        (QuestionEntry Day)
+        (QuestionEntry Date)
+        (QuestionEntry Time)
+    ]
+    ?please
+)
+
+
+QuestionEntry
+(
+    [
+        (what is ?the ?current)
+        (do you know ?the ?current)
+    ]
+
+)
+
+Day
+(
+    [
+        (day) {<current_day 3>}
+        (today) {<current_day 3>}
+    ]
+)
+
+Time
+(
+    [
+        (time) {<current_day 2>}
+    ]
+)
+
+Date
+(
+    [
+        (date) {<current_day 1>}
+    ]
+)
+
+_IT_IS
+    (it ?[sure certainly] is)
+
+;;
+;; many possible ways to say "yes"
+;;
+YES_WORDS [(yes ?_IT_IS)
+           _IT_IS
+           yup
+           yeah
+           okay
+           sure
+           (you got it)
+           (?(?yes that's) [right correct])
+          ]
+
+_YES_TRAILERS
+    [please thanks (thank you)]
+
+
+;;
+;; only used internally - not meant for public consumption
+;;
+_IT_IS_NOT
+    [(it isn't) (it's not) (it is not)]
+
+;;
+;; many possible ways to say "no"
+;;
+NO_WORDS  [nope
+           (absolutely not)
+           (no ?[_IT_IS_NOT way])
+           _IT_IS_NOT
+           (?(?no that's)
+            [wrong
+             (not [correct right])
+             incorrect
+            ]
+           )
+          ]
+
+_NO_TRAILERS
+    [thanks (thank you)]
+
+LOOSE_CONFIRMATION
+    (?[um uh]
+     [(YES_WORDS ?_YES_TRAILERS)        {<yes_no_slot 1>}
+      (NO_WORDS ?_NO_TRAILERS)          {<yes_no_slot 0>}
+      (DateTime)                        {<yes_no_slot 2>}
+     ]
+    )
+
+
+   

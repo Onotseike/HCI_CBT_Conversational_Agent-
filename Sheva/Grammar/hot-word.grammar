@@ -1,0 +1,14 @@
+;  Sample GSL file for hot word recognizer
+;
+;  Examples of what you can say:
+;  (Pausing between words is not necessary.)
+;
+;  "enter hot word mode"
+;
+;  "wake up genie"
+;
+
+.HOTWORD [	( ?enter (hot word) ?mode ) {<command "hot word">}
+		[ ( ?(wake up) genie ) (wake up) ] {<command "genie">}
+		( ?(there is) no n l ?[definition interpretation] )
+]

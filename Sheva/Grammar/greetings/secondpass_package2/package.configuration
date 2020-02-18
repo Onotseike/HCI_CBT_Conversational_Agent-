@@ -1,0 +1,11 @@
+package.ID			NUANCE,v8.5.0,1117,35556772-37377783
+package.Name			SecondPass2
+package.JustInTime		FALSE
+package.Verification		FALSE
+package.NLDefined		TRUE
+package.NumGrammars		1
+package.GrammarName0		.RESCORE_GRAMMAR
+rec.pass1.gp.Method		unflattened
+package..RESCORE_GRAMMAR.DynagramNames		:RESCORE_GRAMMAR:
+package.NumFirstPassPackages		1
+package.NumSecondPassPackages		0

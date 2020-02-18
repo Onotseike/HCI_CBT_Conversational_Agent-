@@ -1,0 +1,46 @@
+; Date and Time Testing
+
+
+
+.DateTime
+(
+
+    [
+        (QuestionEntry Day)
+        (QuestionEntry Date)
+        (QuestionEntry Time)
+    ]
+    ?please
+)
+
+
+QuestionEntry
+(
+    [
+        (what is ?the ?current)
+        (do you know ?the ?current)
+    ]
+
+)
+
+Day
+(
+    [
+        (day) {<current_day 0>}
+        (today) {<current_day 0>}
+    ]
+)
+
+Time
+(
+    [
+        (time) {<current_day 2>}
+    ]
+)
+
+Date
+(
+    [
+        (date) {<current_day 1>}
+    ]
+)

@@ -1,0 +1,56 @@
+;Humor Grammar
+
+
+.Humor
+(
+    [
+        (Intent Joke)
+        (Intent Riddle)
+
+    ]
+)
+
+Intent
+(
+    [
+        (tell me a)
+        (i want to hear a)        
+    ]
+)
+
+Joke
+(
+    [
+        joke
+    ]
+)
+
+Riddle
+(
+    [
+        riddle
+    ]
+)
+
+
+RiddleList
+(
+    [
+        (what is humor)
+    ]
+)
+
+JokeList
+(
+    [
+
+    ]
+)
+
+
+RiddleAnswers
+(
+    [
+
+    ]
+)

@@ -1,0 +1,10 @@
+10,-,LOG,STATUS,0,2018/04/29 16:04:28.227,Paulas-Qosmio,recserver,43952,RS,AppOutput,32,Loading recognition packages...
+10,-,LOG,STATUS,0,2018/04/29 16:04:37.596,Paulas-Qosmio,recserver,43952,RS,AppOutput,33,All recognition packages loaded.
+10,-,LOG,STATUS,0,2018/04/29 16:04:37.596,Paulas-Qosmio,recserver,43952,RS,AppOutput,52,Recserver ready to accept connections on port 8200
+
+10,-,LOG,STATUS,0,2018/04/29 16:04:37.597,Paulas-Qosmio,recserver,43952,RS,RecServer,19,Client 0 connected
+10,e10711ac_00002f64_5ae5df05_0002_0000,LOG,STATUS,0,2018/04/29 16:04:46.227,Paulas-Qosmio,recserver,44048,RS,RecServer,59,Client 0 started utterance 65581 with grammar .MainGrammar
+10,e10711ac_00002f64_5ae5df05_0002_0000,LOG,STATUS,0,2018/04/29 16:05:16.259,Paulas-Qosmio,recserver,44048,RS,RecServer,33,Client 0 utterance 65581 aborted
+10,e10711ac_00002f64_5ae5df05_0002_0000,LOG,STATUS,0,2018/04/29 16:05:18.898,Paulas-Qosmio,recserver,44048,RS,RecServer,59,Client 0 started utterance 65602 with grammar .MainGrammar
+10,e10711ac_00002f64_5ae5df05_0002_0000,LOG,STATUS,0,2018/04/29 16:05:48.937,Paulas-Qosmio,recserver,44048,RS,RecServer,33,Client 0 utterance 65602 aborted
+10,e10711ac_00002f64_5ae5df05_0002_0000,LOG,STATUS,0,2018/04/29 16:05:51.497,Paulas-Qosmio,recserver,44048,RS,RecServer,59,Client 0 started utterance 65623 with grammar .MainGrammar

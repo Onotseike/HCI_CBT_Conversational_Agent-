@@ -1,0 +1,17 @@
+HotWordNormal {
+	Grammar .HOTWORD
+	client.HotWordMinSeconds=0.3
+	client.HotWordMaxSeconds=1.7
+}
+
+HotWordShort {
+	Grammar .HOTWORD
+	client.HotWordMinSeconds=0.0
+	client.HotWordMaxSeconds=1.0
+}
+
+HotWordLong {
+	Grammar .HOTWORD
+	client.HotWordMinSeconds=2.0
+	client.HotWordMaxSeconds=5.0
+}

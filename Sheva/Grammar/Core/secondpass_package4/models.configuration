@@ -1,0 +1,85 @@
+# generation date: Tue Jul 29 10:10:55 PDT 2003
+# Nuance version:  v8.5
+fe.NuanceInternal_15470                  4 
+fe.NuanceInternal_21268                  4 
+fe.EnableNoiseReduction                  TRUE 
+fe.NuanceInternal_20908                  ${NUANCE}/data/lang/English.America/front-end/fe2/feature-configuration 
+fe.NuanceInternal_1126                   256 
+fe.NuanceInternal_24878                  ${NUANCE}/data/lang/English.America/front-end/fe2/mel-filterbank-20-bands 
+fe.NuanceInternal_10146                  0.05 
+fe.NuanceInternal_9811                   80 
+fe.NuanceInternal_22105                  ${NUANCE}/data/lang/English.America/front-end/fe2/mel-cep-20-to-12
+fe.NuanceInternal_2862                   -1.052632 
+fe.SamplingRate                          8000 
+fe.NuanceInternal_8466                   0.00 
+fe.NuanceInternal_10175                  7 
+fe.NuanceInternal_9126                   122 
+fe.NuanceInternal_4093                   ${NUANCE}/data/lang/English.America/front-end/fe2/hamming-205-padded-256-window 
+fe.NuanceInternal_2305                   205 
+fe.NuanceInternal_1596                   TRUE 
+fe.la.MaxLa                              1000 
+fe.la.MinLa                              1000 
+mp.ISOLanguages                         en
+mp.Name                                 English.America.3.3.0
+mp.Version                               4 
+obs.Feature0                             frame_single_feature:32:1.0:10000 
+obs.NuanceInternal_3995                  1000 
+obs.NuanceInternal_9217                  ${NUANCE}/data/lang/English.America/master.package/3.3.0/SecondPass4/models.quant 
+obs.NuanceInternal_4280                  0.7 
+obs.NuanceInternal_9973                  -1144943.328 
+obs.NumFeatures                          1 
+obs.NuanceInternal_6279                  mixt 
+obs.NuanceInternal_1502                  TRUE 
+pron.MaxProns                            10 
+pron.ModelSet                            ${NUANCE}/data/lang/English.America/autopron/2 
+pron.SystemDictionary                    ${NUANCE}/data/lang/English.America/master.package/3.3.0/FirstPass/DICTIONARY 
+rec.NuanceInternal_10238                 TRUE 
+rec.EnrollCount                          0 
+rec.EnrollOffset                         0 
+rec.NuanceInternal_41                    TRUE 
+rec.GrammarWeight                        5.0 
+rec.MasterPackageLocation                ${NUANCE}/data/lang/English.America/master.package/3.3.0/SecondPass4 
+rec.NumPasses                            1 
+rec.PauseDefinitionsFile                 ${NUANCE}/data/lang/English.America/master.package/3.3.0/SecondPass4/PAUSES 
+rec.PhonesFile                           ${NUANCE}/data/lang/English.America/master.package/3.3.0/SecondPass4/PHONES 
+rec.PruneRejects                         TRUE 
+rec.Pruning                              1200 
+rec.RecognizerName                       SecondPass4 
+rec.SamplingRate                         8000 
+rec.NuanceInternal_14492                 30 
+rec.NuanceInternal_7651                  TRUE 
+rec.NuanceInternal_7071                  -1 
+rec.pass1.RejectFlag                     TRUE 
+rec.pass1.RejectWeight                   -50 
+rec.pass1.RejectWord                     @reject@ 
+rec.pass1.bt.Duration                    FALSE 
+rec.pass1.bt.GProbs                      FALSE 
+rec.pass1.bt.Method                      standard 
+rec.pass1.bt.Probs                       TRUE 
+rec.pass1.bt.StartTimes                  FALSE 
+rec.pass1.bt.Times                       TRUE 
+rec.pass1.gp.IgnoreConstraints           TRUE 
+rec.pass1.gp.Method                      fast 
+rec.pass1.gp.WTW                         -200 
+rec.NuanceInternal_27658                 -_exh_noi_rej_hes 
+rec.NuanceInternal_13040                 ${NUANCE}/data/lang/English.America/master.package/3.3.0/SecondPass4/models.priors 
+rec.NuanceInternal_11408                 ${NUANCE}/data/lang/English.America/master.package/3.3.0/SecondPass4/models 
+rec.pass1.pp.Method                      standard 
+rec.pass1.pp.Models                      ${NUANCE}/data/lang/English.America/master.package/3.3.0/SecondPass4/models.models 
+rec.NuanceInternal_7651		TRUE
+package.SecondPassCrossWord		TRUE
+pron.MergeDictionary			${THISDIR}/../merge.dict
+
+### The following lines are automatically generated for twopass recognition, modify them if necessary ###
+
+fe.NuanceInternal_1596   TRUE
+
+### End of automatically generated lines ###
+
+### The following lines are copied from master_package_info file ###
+
+
+
+
+### End of lines copied from master_package_info file ###
+

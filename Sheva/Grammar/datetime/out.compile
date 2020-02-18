@@ -1,0 +1,6 @@
+
+This package was created from the directory
+	D:\onots\source\Workspaces\AINT512\Sheva\batfiles
+by running the following command:
+	C:\Nuance85\V8.5.0\bin\win32\nuance-compile D:\onots\source\Workspaces\AINT512\Sheva\Grammar\datetime.grammar English.America -auto_pron -i D:\onots\source\Workspaces\AINT512\Sheva\package -o D:\onots\source\Workspaces\AINT512\Sheva\Grammar\datetime 
+

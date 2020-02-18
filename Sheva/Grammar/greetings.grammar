@@ -1,0 +1,42 @@
+; Grammar for Basic greetings
+
+
+
+
+.Greetings
+(
+
+    [
+       (Salutation ?BotName)
+    ]    
+)
+
+
+Salutation
+(
+    [
+       hello
+       hi
+       (?good morning)
+       (?good afternoon)
+       (?good evening)
+       goodbye
+       end
+       +bye
+       (have a good night)
+       (?i have to go)
+       (see ya)
+       (it was *good *nice talking to you)
+       (it was nice talking to you)
+       (hey there)
+    ]
+
+)
+
+BotName
+(
+    [
+        sheva
+    ]
+)
+

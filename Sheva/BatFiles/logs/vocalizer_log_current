@@ -1,0 +1,8 @@
+10,-,LOG,STATUS,0,2018/04/29 16:04:28.626,Paulas-Qosmio,vocalizer,44092,UTILS.TOOLBOX,AppOutput,39,
+Toolbox Server, version Aug 22 2005. 
+10,-,LOG,STATUS,0,2018/04/29 16:04:28.640,Paulas-Qosmio,vocalizer,44092,UTILS.TOOLBOX,AppOutput,66,Copyright (c) 2001, Nuance Communications.  All Rights Reserved.
+
+10,-,LOG,STATUS,0,2018/04/29 16:04:28.640,Paulas-Qosmio,vocalizer,44092,UTILS.TOOLBOX,AppOutput,24,MULTI-threaded server.
+
+10,-,LOG,STATUS,0,2018/04/29 16:04:31.241,Paulas-Qosmio,vocalizer,44092,UTILS.TOOLBOX,AppOutput,52,Server ready to accept connections on port 32323...
+10,-,LOG,STATUS,0,2018/04/29 16:04:31.242,Paulas-Qosmio,vocalizer,11828,AUDIO.TTS,AppOutput,61,Dictionary Phoneme Translation Engine ready on port 22552...
